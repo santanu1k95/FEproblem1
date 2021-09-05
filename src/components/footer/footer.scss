@@ -1,0 +1,15 @@
+.footer{
+    height: 20px;
+    background: rgb(42, 157, 94);
+    background: linear-gradient(90deg, rgba(42, 157, 94, 1) 0%, rgba(47, 77, 164, 1) 84%, rgba(43, 137, 112, 1) 100%);
+    color: white;
+    a{
+        white-space: nowrap;
+        text-decoration: none;
+        color: white;
+        padding: 0 5px;
+        &:hover{
+            color: blue;
+        }
+    }
+}
